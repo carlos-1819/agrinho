@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festejando Conexões</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Festejando Conexões</h1>
+        <p>Explorando o vínculo entre o campo e a cidade</p>
+    </header>
+
+    <!-- Navegação com botões -->
+    <nav class="navbar">
+        <button onclick="scrollToSection('campo')">O Campo</button>
+        <button onclick="scrollToSection('cidade')">A Cidade</button>
+        <button onclick="scrollToSection('conexao')">Conexão</button>
+        <button onclick="scrollToSection('revolucao')">Revolução Verde</button>
+        <button onclick="scrollToSection('eventos')">Eventos Históricos</button>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="content">
+
+        <section id="campo">
+            <h2>O Campo</h2>
+            <p>O campo representa a nossa origem, com suas paisagens naturais, tradições, saberes populares e a simplicidade da vida rural.</p>
+            <p>Além disso, o campo é responsável por grande parte da produção de alimentos, matérias-primas e preservação ambiental.</p>
+        </section>
+
+        <section id="cidade">
+            <h2>A Cidade</h2>
+            <p>A cidade simboliza o desenvolvimento, a diversidade cultural e o avanço tecnológico.</p>
+            <p>É onde se concentram serviços, universidades, oportunidades de trabalho e grandes centros culturais.</p>
+        </section>
+
+        <section id="conexao">
+            <h2>A Conexão</h2>
+            <p>Juntos, campo e cidade formam uma rede de trocas e aprendizados. Um fornece recursos naturais, o outro tecnologia e conhecimento.</p>
+            <p>Essa conexão é essencial para o equilíbrio econômico, ambiental e social do país.</p>
+        </section>
+
+        <section id="revolucao" class="revolucao-verde">
+            <h2>A Revolução Verde</h2>
+            <p>A Revolução Verde (1940–1960) trouxe inovações tecnológicas à agricultura, como sementes modificadas, irrigação eficiente e fertilizantes químicos.</p>
+            <p>Essas mudanças aumentaram a produção de alimentos e ajudaram a combater a fome em vários países.</p>
+        </section>
+
+        <section id="eventos" class="eventos-historicos">
+            <h2>Eventos Históricos no Campo</h2>
+            <ul>
+                <li><strong>Revolução Agrícola:</strong> Introdução de técnicas que aumentaram a produtividade e transformaram o campo.</li>
+                <li><strong>Movimento dos Sem-Terra (MST):</strong> Luta por reforma agrária e justiça social desde os anos 1980.</li>
+                <li><strong>Revolução Verde:</strong> Inovações que mudaram o panorama agrícola mundial entre 1940 e 1960.</li>
+                <li><strong>Crise do Café:</strong> Colapso do setor cafeeiro brasileiro nos anos 1930 durante a Grande Depressão.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        © 2025 Festejando Conexões. Todos os direitos reservados.
+    </footer>
+
+    <!-- Script para rolar até seção -->
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
